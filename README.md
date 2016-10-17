@@ -14,6 +14,11 @@ An LMDB database is built from the input images and the extracted pose labels.
 #### PoseNet variations:
 
 PoseNet uses monocular input by default. Can we improve PoseNet accuracy using stereo vision? 
+
 We take two approaches to test this: 
+
  - Modify PoseNet using the Siamese architecture
+ 
  - Embed stereo vision in a multi-channel tensor 
+ 
+ 
