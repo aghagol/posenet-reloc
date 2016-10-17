@@ -5,7 +5,8 @@ Keypoint-based camera localization (during SLAM or tracking only) could fail in 
 
 #### Preparation of training data for PoseNet:
 
-To get training labels (pose) from a stereo camera, we use the keyboint-based [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Note: SLAM usually performs well
+To get training labels (pose) from a stereo camera, we use the keyboint-based [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Note: SLAM usually performs well in the absence of extreme appearance changes.
+
 An LMDB database is built from the input images and the extracted pose labels for [PoseNet](https://github.com/alexgkendall/caffe-posenet)
 
 #### PoseNet variations:
