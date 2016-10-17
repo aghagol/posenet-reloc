@@ -9,7 +9,7 @@ To get training labels (pose) from stereo vision, we use the keyboint-based [ORB
 
 Note: ORB-SLAM usually performs well in the absence of extreme appearance changes. This allows us to extract accurate pose information from a single run. Training data for PoseNet can be a combination of multiple runs, each using ORB-SLAM to extract pose in a common coordinate system. 
 
-An LMDB database is built from the input images and the extracted pose labels for [PoseNet](https://github.com/alexgkendall/caffe-posenet)
+An LMDB database is built from the input images and the extracted pose labels.
 
 #### PoseNet variations:
 
