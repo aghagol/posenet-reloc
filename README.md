@@ -11,14 +11,14 @@ Note: ORB-SLAM usually performs well in the absence of extreme appearance change
 
 An LMDB database is built from the input images and the extracted pose labels.
 
-#### PoseNet variations:
+#### Stereo-PoseNet:
 
 PoseNet uses monocular input by default. Can we improve PoseNet accuracy using stereo vision? 
 
-We take two approaches to test this: 
+We test two ways of making PoseNet stereo: 
 
- - Modify PoseNet using the Siamese architecture
+ - Combine 2 PoseNets using the Siamese architecture
  
- - Embed stereo vision in a multi-channel tensor 
+ - Feed a single PoseNet with the stereo vision that is embedded in a multi-channel tensor
  
- 
+#### Demos:
