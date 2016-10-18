@@ -25,4 +25,4 @@ We test two ways of making PoseNet stereo:
  
 #### Demos:
 
-[![Monocular pose estimation using PoseNet](http://img.youtube.com/vi/oWsb1U0OkW8&feature=youtu.be)](https://www.youtube.com/watch?v=oWsb1U0OkW8&feature=youtu.be)
+[![Monocular pose estimation using PoseNet](http://img.youtube.com/vi/oWsb1U0OkW8&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=oWsb1U0OkW8&feature=youtu.be)
