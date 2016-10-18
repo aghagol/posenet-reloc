@@ -14,16 +14,9 @@ Note: Structure From Motion can be used to extract pose from monocular vision if
 
 Finally, we generate an LMDB database from the input images and the extracted pose labels.
 
-#### Stereo-PoseNet:
+#### Demo:
 
-PoseNet uses monocular input by default. Can we improve PoseNet's accuracy using stereo vision? 
-
-We test two ways of making PoseNet stereo: 
-
- - Combine 2 PoseNets using the Siamese architecture
- 
- - Feed a single PoseNet with the stereo vision that is embedded in a multi-channel tensor
- 
-#### Demos:
+PoseNet estimating pose from the a single (left) camera:
 
 <a href="https://www.youtube.com/watch?v=oWsb1U0OkW8&feature=youtu.be" target="_blank"><img src="https://img.youtube.com/vi/oWsb1U0OkW8/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
