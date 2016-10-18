@@ -2,7 +2,13 @@
 
 Robot localization using [PoseNet](https://github.com/alexgkendall/caffe-posenet)
 
-Keypoint-based camera localization (during SLAM or tracking) could fail in the presence severe appearance changes (day vs. night, sunny vs. rainy) and is sensitive to input quality, e.g. image resolution, sharpness and contrast. We intend to test the robustness of deep nets, such as PoseNet, for stereo/monocular camera localization and pose estimation.
+Keypoint-based camera localization (during SLAM or tracking) could fail in the presence severe appearance changes (day vs. night, sunny vs. rainy) and is sensitive to input quality, e.g. image resolution, sharpness and contrast. We intend to test the robustness of deep neural nets for stereo/monocular camera localization and pose estimation. PoseNet is a modification of GoogleNet to regress the 6-DOF camera pose which is described in this paper:
+
+Alex Kendall, Matthew Grimes and Roberto Cipolla "[PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](http://arxiv.org/abs/1505.07427)." Proceedings of the International Conference on Computer Vision (ICCV), 2015. 
+
+#### Dependencies:
+
+We use [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) for automatic labeling of stereo input and [PoseNet](https://github.com/alexgkendall/caffe-posenet) for pose estimation from monocular vision (left camera). 
 
 #### Preparation of training data for PoseNet (automatic labeling):
 
