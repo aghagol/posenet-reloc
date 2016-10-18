@@ -22,7 +22,7 @@ Finally, we generate an LMDB database from the input images and the extracted po
 
 #### Demo:
 
-PoseNet estimating pose from the a single (left) camera:
+PoseNet estimating pose from the a single (left) camera after being trained over the same parking lot and the same day:
 
 <a href="https://www.youtube.com/watch?v=oWsb1U0OkW8&feature=youtu.be" target="_blank"><img src="https://img.youtube.com/vi/oWsb1U0OkW8/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
