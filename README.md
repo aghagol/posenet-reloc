@@ -8,7 +8,7 @@ Keypoint-based camera localization (during SLAM or tracking) could fail in the p
 
 To produce training labels (pose) from stereo vision, we use the keyboint-based [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). 
 
-Note: ORB-SLAM usually performs well in the absence of appearance changes. This allows us to extract accurate pose information from a single run. Meanwhile, training data for PoseNet can be a combination of multiple runs, each using ORB-SLAM to extract pose in a common coordinate system. 
+Note: ORB-SLAM performs well in the absence of appearance changes. This allows us to extract accurate pose information from a single run. Meanwhile, training data for PoseNet can be a combination of multiple runs, each using ORB-SLAM to extract pose in a common coordinate system. 
 
 Note: Structure From Motion can be used to extract pose from monocular vision if stereo is not available. 
 
