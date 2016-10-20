@@ -9,7 +9,7 @@ Alex Kendall, Matthew Grimes and Roberto Cipolla "[PoseNet: A Convolutional Netw
 #### Dependencies:
 
  - [ROS](http://www.ros.org/) for extracting time-stamped left/right images and camera calibration from rosbags 
- - [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) for automatic labeling of stereo input 
+ - SLAM for automatic labeling of stereo input. We use [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) 
  - [PoseNet](https://github.com/alexgkendall/caffe-posenet) for pose estimation from monocular vision (left camera)
 
 #### Preparation of training data for PoseNet (automatic labeling):
