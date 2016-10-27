@@ -1,4 +1,4 @@
-# Deep-loc
+# posenet-reloc
 
 Robot localization using [PoseNet](https://github.com/alexgkendall/caffe-posenet)
 
