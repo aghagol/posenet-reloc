@@ -1,6 +1,6 @@
 # posenet-reloc
 
-Robot localization using [PoseNet](https://github.com/alexgkendall/caffe-posenet)
+Robot relocalization using [PoseNet](https://github.com/alexgkendall/caffe-posenet)
 
 Keypoint-based camera localization (during SLAM or tracking) could fail in the presence severe appearance changes (day vs. night, sunny vs. rainy) and is sensitive to input quality, e.g. image resolution, sharpness and contrast. We intend to test the robustness of deep neural nets for stereo/monocular camera localization and pose estimation. PoseNet is a modification of GoogleNet to regress the 6-DOF camera pose which is described in this paper:
 
